@@ -6,7 +6,7 @@ website:
   port: 8000
   secret: "extremely secret very secret MAXIMUM secret LMAO."
   secure: false # This option requires https.
-  url: "http://axpineservers.tk:8000"
+  url: "http://axpineservers.tk"
 
 mail:
   server: ""
@@ -15,11 +15,11 @@ mail:
   pass: ""
 
 discord:
-  id: ""
-  secret: ""
+  id: "1035319161250910258"
+  secret: "hxaAOWOZdxomVqjlg6lTUbnK_V5aUB5K"
   signup_callback: "http://axpineservers.tk:8000/accounts/discord/signup/callback"
-  login_callback: "http://localhost:8000/accounts/discord/login/callback"
-  link_callback: "http://localhost:8000/accounts/discord/link/callback"
+  login_callback: "http://axpineservers.tk:8000/accounts/discord/login/callback"
+  link_callback: "http://axpineservers.tk:8000/accounts/discord/link/callback"
   prompt: true
 
   token: ""
@@ -131,7 +131,7 @@ store: # This is the store options.
 
 afk:
   domain_lock:
-    - axpineservers.tk:8000 # Change this to your actual domain.
+    - axpineservers.tk # Change this to your actual domain.
   redirect_on_attempt_to_steal_code: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   arc_id: ""
   google_ads:
